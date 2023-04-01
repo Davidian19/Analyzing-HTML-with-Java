@@ -5,8 +5,8 @@ Nesse projeto é tem o objetivo de extrair o texto mais profundo e, também, ver
 O pacote contém três classes principais:
 
 - HtmlAnalyzer: A classe que contém o método main para executar o programa. Ele recebe uma URL como entrada e chama outraos métodos para extrair o texto mais profundo da página da web e verifica se o HTML está bem formado.
-TextExtractor: A classe que extrai o HTML da página da web e a transforma em uma String para realizar a tarefa e também retorna uma mensagem de erro caso tenha algum problema na conexão.
-HTMLTextExtractor: A classe que extrai o texto mais profundo HTML. Na hora de retornar, ele remove todos os elementos HTML não relevantes e retorna apenas o etxto
+- TextExtractor: A classe que extrai o HTML da página da web e a transforma em uma String para realizar a tarefa e também retorna uma mensagem de erro caso tenha algum problema na conexão.
+- HTMLTextExtractor: A classe que extrai o texto mais profundo HTML. Na hora de retornar, ele remove todos os elementos HTML não relevantes e retorna apenas o etxto
 
 
 Para executar o programa, você pode compilar todas as classes e executar, usando os comandos abaixo:
